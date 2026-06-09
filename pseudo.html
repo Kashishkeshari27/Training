@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: 50px;
+        }
+        table{
+            border: 2px solid black;
+            height: 100px;
+            width: 100%;
+        }
+        td{
+            border: 2px solid black;
+        }
+        tr:nth-child(even){
+            color: brown;
+        }
+        .button-b{
+            color: black;
+            border: 2px solid black;
+            height: 30px;
+            padding: 20px;
+        }
+        .button-b:hover{
+            color: blueviolet;
+            background-color: aquamarine;
+            border-radius: 20px;
+            padding: 40px;
+        }
+        h1::before{
+            content: "hii";
+        }
+        h1::after{
+            content: "kash";
+        }
+        a:visited{
+            color: rgb(167, 5, 5);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+        
+            <th>name</th>
+            <th>branch</th>
+            <th>roll no.</th>
+        
+        </tr>
+        <tr>
+            <td>kashish</td>
+            <td>cse</td>
+            <td>81</td>
+        </tr>
+           <tr>
+            <td>kashish</td>
+            <td>cse</td>
+            <td>81</td>
+        </tr>
+           <tr>
+            <td>kashish</td>
+            <td>cse</td>
+            <td>81</td>
+        </tr>
+    </table>
+    <input type="button" value="click me" class="button-b" >
+    <h1>hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quo! Eos quam voluptatibus autem at consequuntur quod nam, ut eveniet unde mollitia reprehenderit accusantium sed! Vitae consequatur maxime et laboriosam?</p>
+    <a href="google.com">google</a>
+</body>
+</html>

@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Portfolio</title>
+    <style>
+        .h-1{
+            text-align: center;
+            align-items: center;
+            color: blueviolet;
+        }
+        img{
+            
+        }
+        .main{
+            padding: 0px;
+            margin-left:10px;
+            width:100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Portfolio</h1>
+    <h1 class="h-1">Portfolio</h1>
     <div>
+        <div class="container mt-5">
+            <img src="image.jpeg" alt="my.image" height="300px" width="300px" class="img-fluid d-block mx-auto">
+        </div class="main">
         <div>
-            <img src="image.jpeg" alt="my.image" height="300px" width="300px">
-        </div>
         <div>
             <h3>About me</h3>
             <p >Kashish Keshari</p>
@@ -33,6 +50,7 @@
                 <li>Backend </li>
             </ul>
         </div>
+    </div>
     </div>
 </body>
 </html>
